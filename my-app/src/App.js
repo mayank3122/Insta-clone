@@ -1,13 +1,15 @@
 import './App.css';
-import AppRouter from './Routers/AppRouters';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import PostContext from './contexts/PostContext'
+import AppRouter from './Routers/AppRouters';
 
 function App() {
   return (
+    <PostContext>
     <div className="App-container">
-      <AppRouter/>
+     <AppRouter />
     </div>
+    </PostContext>
   );
 }
 
