@@ -1,6 +1,6 @@
 
-// const BASE_URL=process.env.NODE_API;
-const BASE_URL="http://localhost:10000";
+// const BASE_URL=process.env.NODE;
+const BASE_URL="https://instaclont-node.onrender.com";
 
 export function getAllPost() {
 
