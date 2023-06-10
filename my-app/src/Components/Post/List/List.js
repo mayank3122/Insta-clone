@@ -33,7 +33,7 @@ export default function AllPost() {
                       </Card.Header>
                       <Card.Body className="card-body">
                         <img
-                          src={`${process.env.NODE_API}/${post.image}`}
+                          src={`https://instaclont-node.onrender.com/${post.image}`}
                           alt=""
                         />
                       </Card.Body>
